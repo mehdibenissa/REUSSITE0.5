@@ -1,0 +1,24 @@
+﻿<div class="container">    
+    <div class="header" id="myhid">
+        <h3>{{title}}</h3>
+    </div>
+
+    <div id="breadcrumb">
+        <ul class="crumbs">
+            <li class="first"><a href="" style="z-index: 9;"><span></span>1</a></li>
+            <li class=""><a href="" style="z-index: 8;">2</a></li>
+            <li><a href="" style="z-index: 7;">fin</a></li>
+        </ul>
+    </div>
+
+    <div style="clear: both"></div>
+
+    <div class="center">
+        <div data-ng-include="content"></div>
+        
+        <div class="nav">
+            <a class="btn suiv" href="{{nextPageUrl}}" id="mybt">Suivant</a>
+        </div>
+    </div>
+</div>
+
